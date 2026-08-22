@@ -10,9 +10,8 @@ supported by current Memcached releases.
 
 With Composer:
 
-```bash
-$ composer require aidarkolbaev/memclient
-```
+> [!CAUTION]
+> Not supported
 
 Or without Composer, just include the single file directly:
 
