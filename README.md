@@ -1,6 +1,6 @@
 # MClient
 
-A dependency-free, pure PHP client for [Memcached](https://memcached.org/).
+A dependency-free, pure PHP client for [Memcached](https://memcached.org/), originally written by [aidarkolbaev](https://github.com/aidarkolbaev/memclient). Updated and improved.
 
 #### Getting started
 
