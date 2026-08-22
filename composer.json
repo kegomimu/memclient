@@ -6,22 +6,26 @@
   "license": "MIT",
   "authors": [
     {
+      "name": "kegomimu",
+      "email": "velvet-cadet-shed@duck.com"
+    },
+    {
       "name": "Aidar Kolbaev",
       "email": "aidarkolbaew@gmail.com"
     }
   ],
   "require": {
-    "php": "^7.1",
+    "php": "^8.1",
     "ext-sockets": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "3.*",
-    "phpunit/phpunit": "^7.5"
+    "phpunit/phpunit": "^9.6 || ^10.5"
   },
   "autoload": {
-    "psr-4": {
-      "MClient\\": "MClient"
-    }
+    "classmap": [
+      "MClient/"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
